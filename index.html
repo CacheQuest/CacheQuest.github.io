@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine QR-Code Webanwendung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Willkommen zur QR-Code Webanwendung!</h1>
+        <p>Du hast den QR-Code erfolgreich gescannt. 🎉</p>
+        <button onclick="showAlert()">Klick mich!</button>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert("Super, du hast den Button geklickt! 🚀");
+        }
+    </script>
+</body>
+</html>
